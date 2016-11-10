@@ -1,0 +1,17 @@
+body {
+	margin: auto 0;
+}
+
+.container {
+	width: 600px;
+	margin:60px;
+	border: 1px #000 solid;
+}
+
+.main {
+	padding: 30px;
+	margin: 16px;
+	background-color: #d1d1d1;
+	border-top: 3px #000 solid;
+	border-bottom: 3px #000 solid;
+}
