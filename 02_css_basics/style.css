@@ -2,16 +2,114 @@ body {
 	margin: auto 0;
 }
 
+* {
+	font-family: 'Helvetica Neue 45', Arial, sans-serif;
+}
+
+p {
+	line-height: 24px;
+}
+
 .container {
-	width: 600px;
+	width: 900px;
 	margin:60px;
-	border: 1px #000 solid;
+	border: 1px #ccc solid;
+	background-image: url("images/highlands_flag.jpg");
+
 }
 
 .main {
+	min-height: 400px;
 	padding: 30px;
 	margin: 16px;
-	background-color: #d1d1d1;
-	border-top: 3px #000 solid;
-	border-bottom: 3px #000 solid;
+	background-color: rgba(169, 216, 119, 0.95);
 }
+
+
+div.clear {
+	clear: both;
+}
+
+.imgIndex {
+	float: right;
+	padding: 0px 0px 20px 40px;
+}
+
+div.photos {
+	display: inline-block;
+	padding-bottom: 20px;
+	width: 219px;
+	padding-right: 40px;
+	vertical-align: top;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #457f07;
+}
+
+h2 {
+	text-transform: normal;
+	color: #457f07;
+}
+
+h3 {
+	text-transform: normal;
+	color: #457f07;
+}
+
+h4 {
+	text-transform: normal;
+	color: #457f07;
+}
+
+h5 {
+	color: #4d4d4d;
+}
+
+h6 {
+	color: #4d4d4d;
+	font-size: 14px;
+}
+
+
+ul {
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #5a8b26;
+	font-style: italic;
+}
+
+a:hover {
+	color:#fff;
+}
+
+li {
+	display: inline;
+	background-color: rgba(69, 127, 7, 0.25);
+	padding: 2px 10px;
+}
+
+li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #2d4019;
+}
+
+li a:active {
+	color:#000;
+}
+
+hr{
+	color:#0072c6;
+	border: 0;
+	height: 1px;
+	background-image:linear-gradient(to right, rgba(0,114,198,0), rgba(0,114,198,0.75), rgba(0,114,198,0));
+}
+
